@@ -1,0 +1,5 @@
+package com.volleyballpointsapp.myapp;
+
+import com.getcapacitor.BridgeActivity;
+
+public class MainActivity extends BridgeActivity {}
