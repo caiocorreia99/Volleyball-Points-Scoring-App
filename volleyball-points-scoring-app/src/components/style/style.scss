@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.div-control-endgame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.color-style-control-endgame {
+  color: #fff !important;
+  font-family: "Outfit", sans-serif !important;
+  text-align: center;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  background-color: #494949 !important;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  min-width: 100%;
+  padding: 2rem;
+  text-align: center;
+  background-color: #494949;
+}
+
+.title-time-name {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+}
+
+.font-style-placar {
+  font-family: "Orbitron", sans-serif;
+  font-size: 5.5rem !important;
+  letter-spacing: 2px;
+}
+
+.div-scoreboard {
+  display: flex;
+  justify-content: center;
+}
+
+.font-style-sets {
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.editable-name {
+  cursor: pointer;
+  user-select: none;
+}
+
+.div-time-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.style-control-button {
+  font-family: "Orbitron", sans-serif !important;
+  font-size: 1rem !important;
+  width: 100%;
+}
+
+.div-buttons-controls {
+  padding: 8px 0px;
+  display: flex;
+}
+
+//Yellow Theme
+.theme-yellow-placar {
+  background: #ffde31;
+  border-radius: 5%;
+  padding: 8px;
+  border: 1px solid #ffde31;
+  box-shadow: 0 4px 10px rgba(255, 235, 60, 0.4);
+  transition: all 0.3s ease-in-out;
+  color: #333;
+}
+
+.theme-yellow-score {
+  background: #ffde31;
+  border-radius: 5%;
+  padding: 10px 0px;
+  border: 1px solid #ffde31;
+  box-shadow: 0 4px 10px rgba(255, 235, 60, 0.4);
+  transition: all 0.3s ease-in-out;
+  color: #333;
+}
+
+.theme-yellow-placar:hover {
+  box-shadow: 0 6px 14px rgba(255, 235, 60, 0.6);
+  transform: translateY(-2px);
+}
+
+.theme-yellow-color {
+  color: #ffde31;
+  margin: 0;
+}
+
+// Red Theme
+.theme-red-placar {
+  background: #f44336; // vermelho vibrante
+  border-radius: 5%;
+  padding: 8px;
+  border: 1px solid #f44336;
+  box-shadow: 0 4px 10px rgba(244, 67, 54, 0.4);
+  transition: all 0.3s ease-in-out;
+  color: #fff; // branco para contraste melhor
+}
+
+.theme-red-score {
+  background: #f44336;
+  border-radius: 5%;
+  padding: 10px 0px;
+  border: 1px solid #f44336;
+  box-shadow: 0 4px 10px rgba(244, 67, 54, 0.4);
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+}
+
+.theme-red-placar:hover {
+  box-shadow: 0 6px 14px rgba(244, 67, 54, 0.6);
+  transform: translateY(-2px);
+}
+
+.theme-red-color {
+  color: #f44336;
+  margin: 0;
+}
+
+@media (max-width: 500px) {
+  .div-scoreboard {
+    justify-content: space-between;
+  }
+
+  .div-control-endgame {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: inherit;
+  }
+}

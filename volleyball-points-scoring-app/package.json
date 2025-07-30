@@ -1,0 +1,26 @@
+{
+  "name": "volleyball-points-scoring-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.2.0",
+    "@capacitor/cli": "^7.2.0",
+    "@capacitor/core": "^7.2.0",
+    "@coreui/coreui": "^5.2.0",
+    "@coreui/vue": "^5.4.1",
+    "sweetalert2": "^11.18.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "sass": "^1.86.3",
+    "vite": "^6.2.0"
+  }
+}
